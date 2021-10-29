@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cube-practicer"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 authors = ["ylq <jamesylq@gmail.com>"]
 
@@ -13,3 +13,6 @@ pygame = "^2.0.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cube-practicer = "cube_practicer.main:app"
